@@ -22,58 +22,74 @@ profile.display = function() {
 profile.display();
 
 
-var topTenTFBF = {
-'tfbfLists': [{//TopFiveBottomFiveLists
-  'name': 'Star Wars Characters - T5B5',
-  'tFirst': 'Luke Skywalker',
-  'tSecond': 'Darth Vader',
-  'tThird': 'Chewbacca',
-  'tFourth': 'Obi Wan Kenobi',
-  'tFifth': 'It\'\ s a trap guy',
-  'bFifth': 'Princess Leia',
-  'bFourth': 'Jaba the Hut',
-  'bThird': 'Darth Maul',
-  'bSecond': 'Qui-Gon Jinn',
-  'bFirst': 'Jar Jar Binks'
+var topFiveTFBF = {
+  'tfbfLists': [{//TopFiveBottomFiveLists
+    'name': 'Star Wars Characters - T5B5',
+    'tFirst': 'Luke Skywalker',
+    'tSecond': 'Darth Vader',
+    'tThird': 'Chewbacca',
+    'tFourth': 'Obi Wan Kenobi',
+    'tFifth': 'It\'\ s a trap guy',
+    'bFifth': 'Princess Leia',
+    'bFourth': 'Jaba the Hut',
+    'bThird': 'Darth Maul',
+    'bSecond': 'Qui-Gon Jinn',
+    'bFirst': 'Jar Jar Binks'
 }, {
-  'name': 'NFL NFC Teams 2015 - T5B5',
-  'tFirst': 'Seahawks',
-  'tSecond': 'Panthers',
-  'tThird': 'Cardinals',
-  'tFourth': 'Packers',
-  'tFifth': 'Giants',
-  'bFifth': 'Rams',
-  'bFourth': 'Eagles',
-  'bThird': '49ers',
-  'bSecond': 'Falcons',
-  'bFirst': 'Cowboys'
+    'name': 'NFL NFC Teams 2015 - T5B5',
+    'tFirst': 'Seahawks',
+    'tSecond': 'Panthers',
+    'tThird': 'Cardinals',
+    'tFourth': 'Packers',
+    'tFifth': 'Giants',
+    'bFifth': 'Rams',
+    'bFourth': 'Eagles',
+    'bThird': '49ers',
+    'bSecond': 'Falcons',
+    'bFirst': 'Cowboys'
 }, {
+    'name': 'NFL AFC Teams 2015 - T5B5',
+    'tFirst': 'Broncos',
+    'tSecond': 'Patriots',
+    'tThird': 'Steelers',
+    'tFourth': 'Jets',
+    'tFifth': 'Chiefs',
+    'bFifth': 'Bears',
+    'bFourth': 'Raiders',
+    'bThird': 'Jaguars',
+    'bSecond': 'Browns',
+    'bFirst': 'Titans'
+}, {
+    'name': 'Baby Boy Names 2015 - T5B5',
+    'tFirst': 'William',
+    'tSecond': 'Nazar',
+    'tThird': 'Juro',
+    'tFourth': 'Jarodge',
+    'tFifth': 'Nazir',
+    'bFifth': 'Gurbanguly',
+    'bFourth': 'George',
+    'bThird': 'Brutus',
+    'bSecond': 'Zander',
+    'bFirst': 'Adolf'
+}, {
+    'name': 'Movies of 2010\'\ s - T5B5',
+    'tFirst': 'The Force Awakens',
+    'tSecond': 'Train Wreck',
+    'tThird': 'Mad Max',
+    'tFourth': 'Ex Machina',
+    'tFifth': 'The Little Prince',
+    'bFifth': 'The Step Dad',
+    'bFourth': 'That\'\ s My Boy',
+    'bThird': 'Taken 2',
+    'bSecond': 'Cloud Atlas',
+    'bFirst': 'Battleship'
+}
+]};
 
-  'name': 'NFL AFC Teams 2015 - T5B5',
-  'tFirst': 'Broncos',
-  'tSecond': 'Patriots',
-  'tThird': 'Steelers',
-  'tFourth': 'Jets',
-  'tFifth': 'Chiefs',
-  'bFifth': 'Bears',
-  'bFourth': 'Raiders',
-  'bThird': 'Jaguars',
-  'bSecond': 'Browns',
-  'bFirst': 'Titans'
-}, {
-  'name': 'Baby Boy Names 2015 - T5B5',
-  'tFirst': 'William',
-  'tSecond': 'Nazar',
-  'tThird': 'Juro',
-  'tFourth': 'Jarodge',
-  'tFifth': 'Nazir',
-  'bFifth': 'Gurbanguly',
-  'bFourth': 'George',
-  'bThird': 'Brutus',
-  'bSecond': 'Zander',
-  'bFirst': 'Adolf'
+topFiveTFBF.display = function () {
+  
 }
 
-]}
+
 
 $("#workExperience").append(HTMLworkStart);
